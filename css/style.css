@@ -1,5 +1,6 @@
 
-  body {
+ 
+ body {
     gap: 30px;
     padding: 30px;
     background: white;
@@ -11,7 +12,7 @@
         background:gray;
         height: 120px;
         text-align: center;
-        padding: 30px;
+        padding:0 30px;
         border: gray;
       }
       
@@ -25,13 +26,14 @@
       
 #logo {margin-top: 20px};
 
-#Hero {padding: 30px}
+#Hero {overflow:auto;display:block;margin-left: 100px;float: left;}
 
-#sub {display:inline-block;padding: 30px;text-align: center;overflow: auto;width: 33%;} 
+#sub {display:inline-block;padding: 30px;width: 33%;margin: auto} 
 
 .sub img { float: left;width:33%;padding: 30px;}
 
-#art {position: absolute; flex-wrap: wrap;display: inline-block;padding: 30px;width: 250px;}
+#art {position: absolute; flex-wrap: wrap;display: inline-block;padding: 30px;width:300px; overflow: scroll}
+
 .button-wrapper { display: block;text-align: center;}
 .button {
   border: none;
@@ -45,7 +47,7 @@
   position: relative;margin-top: 350px;float: left;
 }
 
-#featured {display:block;float: left;padding: 30px;}
+#featured {display:inline-block;float: left;padding: 30px;margin: auto}
 
 
 footer>nav {        
